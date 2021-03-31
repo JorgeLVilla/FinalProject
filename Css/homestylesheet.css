@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    max-width: 1500px;
+    height: 200vh;
+    background-image: url("/images/chemex.JPG");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fefefe;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1px;
+}
+
+.logo {
+    margin-top: 3px;
+    height: 80px;
+    width: auto;
+}
+
+.nav {
+    color: black;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    font-size: x-large;
+    border-radius: 20px;
+    margin: 10px 15px;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+nav:hover {
+    background-color: #fefefe;
+    transition: .55s;
+    color:white;
+    opacity: 65%;
+}
+
+.nav:hover {
+    background-color: lightcoral;
+    transition: .40s;
+    color:white;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size:xx-large;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.yellowshirt {
+    position: absolute;
+    top: 140%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+}
+
+.whtshirt {
+    position: absolute;
+    top: 161%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.quote1 {
+    position: absolute;
+    top: 175%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 30px;
+}
+
+.quote2 {
+    font-size: x-large;
+    position: absolute;
+    top: 115%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+}
+
+
+.shop {
+    font-size: x-large;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border-radius: 10px;
+    background-color: lightcoral;
+    padding: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+    position: absolute;
+    top: 86%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    opacity: 95%;
+}
+
+
+.shop span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+}
+      
+.shop span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+}
+      
+.shop:hover span {
+        padding-right: 25px;
+}
+      
+.shop:hover span:after {
+        opacity: 1;
+        right: 0;
+}
+
+.create {
+    border: 4px solid lightgray;
+    position: absolute;
+    top: 80%;
+    left: 84%;
+    transform: translate(-50%, -50%);
+    opacity: 85%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -95vh;
+    width: 100%;
+    height: 2.5rem; 
+}
+
+.social {
+    margin: 0 10px;
+}
