@@ -3,7 +3,7 @@ body {
     max-width: 1500px;
     height: 200vh;
     max-height: 120vh;
-    background-image: url("/images/Hero_Image.JPG");
+    background-image: url("../images/Hero_Image.JPG");
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #fefefe;
